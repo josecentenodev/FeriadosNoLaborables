@@ -2,7 +2,7 @@ import react from 'react';
 import axios from 'axios';
 
 const actualYear = new Date().getFullYear();
-const API_URL = "http://nolaborables.com.ar/api/v2/feriados/2022" 
+const API_URL = "https://nolaborables.com.ar/api/v2/feriados/2022" 
 
 export default async function getFeriados () {
     try {
