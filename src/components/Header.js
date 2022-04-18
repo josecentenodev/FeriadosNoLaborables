@@ -8,13 +8,11 @@ function Header() {
 
 
 
-    return <header className="header">
-            <div className="container rFlex">
-            <h1>FNLARG</h1>
+    return <header className="header rFlex">
+            <h1>Feriados No Laborables Argentina</h1>
             <WorkOffIcon 
                 className="header__iconWorkOff"
             />
-            </div>
             </header>
 
 }

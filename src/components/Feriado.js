@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Feriado = ({feriados}) => {
     return (
-        <Container fixed>
+        <Container fixed className="mt25">
         <Grid container rowSpacing={5} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 {
                     feriados.map((feriado, index)=>(

@@ -6,7 +6,7 @@ import Feriado from "./Feriado";
 
 
 
-function ListaFeriados() {
+export default function ListaFeriados() {
 
     const [isLoading, setIsLoading] = useState(true);
     const [feriados, setFeriados] = useState([]);
@@ -31,4 +31,3 @@ function ListaFeriados() {
 
 }
 
-export default ListaFeriados;
